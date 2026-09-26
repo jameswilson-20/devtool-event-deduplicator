@@ -1,0 +1,8 @@
+{
+  "event_id": "release-2026-09-06-042",
+  "kind": "release",
+  "project": "medication-reminders",
+  "summary": "Android release halted while signing the application bundle",
+  "details": "The signing task could not locate the CI keystore alias.",
+  "contains_sensitive_data": false
+}
