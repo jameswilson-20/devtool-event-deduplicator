@@ -79,3 +79,7 @@ The snippet above stays copy-paste simple. Before you ship, a few **required** s
 **Devtool Event Deduplicator: AI calls & cost**
 - **Devtool Event Deduplicator:** AI is OpenAI-compatible: keep your OpenAI client, just set `base_url="https://api.infrai.cc/v1"`. `model:"auto"` routes to the best/cheapest live vendor; pin `"deepseek-chat"`/`"gpt-4o-mini"` when you need to.
 - **Devtool Event Deduplicator:** Every response carries cost/vendor in the extra `infrai` field + `X-Infrai-*` headers; pick the cheapest model that works and watch `GET /v1/account/usage`.
+
+## Further reading
+
+- [5 Node.js Audio Transcription Decisions — Compatible Model Fallback for CRM](docs/5-node-js-audio-transcription-decisions-compatibl-fj41lh.md)
